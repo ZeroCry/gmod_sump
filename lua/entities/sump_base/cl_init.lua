@@ -34,7 +34,7 @@ function ENT:Draw()
 	local Ang = self:GetAngles()
 	local player = LocalPlayer()
 	
-	local tr = util.GetPlayerTrace(player, ang)
+	local tr = util.GetPlayerTrace(player, Ang)
 	local tr = util.TraceLine(tr)
 
 	local hclr = Color(0,0,0,200)
